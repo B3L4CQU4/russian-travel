@@ -6,11 +6,9 @@
   min-height: 200px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .lead__img {
-    margin-top: 40px;
-    width: 320px;
-    height: 200px;
+    margin-top: 56px;
   }
 }
 
@@ -20,8 +18,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 675px) {
   .lead__img {
-    margin-top: 56px;
+    margin-top: 40px;
+    width: 320px;
+    height: 200px;
   }
 }

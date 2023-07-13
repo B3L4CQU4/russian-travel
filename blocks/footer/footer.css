@@ -8,14 +8,26 @@
   justify-content: space-between;
   flex-direction: row;
 }
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    max-width: 720px;
+    width: calc(100% - 24px);
+  }
+}
+
+@media screen and (max-width: 675px) {
   .footer {
     margin-top: 64px;
-    margin-left: 16px;
-    margin-right: 0;
-    width: 186px;
-    max-width: 186px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
     flex-direction: column;
   }
 }
