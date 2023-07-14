@@ -4,13 +4,13 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 44.921875vw;
+    max-width: 42.96875vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 59.895833333333336vw;
+    max-width: 44.27083333333333vw;
   }
 }
 
